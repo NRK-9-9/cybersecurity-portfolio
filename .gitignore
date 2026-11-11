@@ -1,0 +1,15 @@
+# Local-only and sensitive material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+.DS_Store
+.local/
+private-evidence/
+raw-logs/
+*.pcap
+*.pcapng
